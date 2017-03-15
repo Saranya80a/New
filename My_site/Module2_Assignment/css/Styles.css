@@ -6,19 +6,60 @@ body{
   background-color: LawnGreen;
 }
 
-#top{
-
+@media (min-width: 992px)
+{
+  .top{
+   font-size: 30px;
+   font-weight: bold;
    background-color: DarkOrange;
    font-family: Comic Sans MS;
    font-style: italic;
    color: white ;
-   width: 1300px;
+   width: 90%;
    text-align: center;
    border: 2px;
    box-sizing: border-box;
    padding: 40px;
    margin: 10px 10px 10px 25px;
+     } 
 }
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .top{
+   font-size: 30px;
+   font-weight: bold;
+   background-color: DarkOrange;
+   font-family: Comic Sans MS;
+   font-style: italic;
+   color: white ;
+   width: 90%;
+   text-align: center;
+   border: 2px;
+   box-sizing: border-box;
+   padding: 40px;
+   margin: 10px 10px 10px 25px;
+     } 
+}
+
+@media (max-width: 767px)
+{
+  .top{
+   font-size: 30px;
+   font-weight: bold;
+   background-color: DarkOrange;
+   font-family: Comic Sans MS;
+   font-style: italic;
+   color: white ;
+   width: 95%;
+   text-align: center;
+   border: 2px;
+   box-sizing: border-box;
+   padding: 40px;
+   margin: 10px 10px 10px 25px;
+     } 
+}
+
 
 .items{
 
@@ -58,10 +99,10 @@ body{
 /********** Large devices only **********/
 @media (min-width: 992px)
  {
-     .col-lg-3 
+     .col-lg-3, .col-lg-12 
      {
      
-     height: 270px;
+     
      font-family: Comic Sans MS;
      
      
@@ -74,8 +115,13 @@ body{
    .col-lg-3
     {
      width: 25%;
+     height: 270px;
     }
    
+   .col-lg-12
+    {
+     width: 100%;
+    }
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) 
@@ -83,7 +129,7 @@ body{
    .col-md-6,.col-md-12
     {
      
-     height: 250px;
+     
      font-family: Comic Sans MS;
      
     
@@ -96,10 +142,12 @@ body{
      .col-md-6 
      {
        width: 41%;
+       height: 250px;
      }
     .col-md-12
      {
       width: 86.5%;
+      height:160px;
      }
 }
 
@@ -108,7 +156,7 @@ body{
   .col-sm-12
    {
      
-     height: 270px;
+     height: 200px;
      font-family: Comic Sans MS;
      
      
