@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: LawnGreen;
+}
+
+#top{
+
+   background-color: DarkOrange;
+   font-family: Comic Sans MS;
+   font-style: italic;
+   color: white ;
+   width: 1300px;
+   text-align: center;
+   border: 2px;
+   box-sizing: border-box;
+   padding: 40px;
+   margin: 10px 10px 10px 25px;
+}
+
+.items{
+
+     width: 400px;
+     height: 200px;
+     font-family: Comic Sans MS;
+     box-sizing: border-box;
+     border: 2px solid black;
+     padding: 35px 15px 15px 15px;
+     margin: 25px 10px 15px 30px;
+     float:left;
+     background-color: LightGreen;
+     
+
+}
+
+.item_name{
+
+       float: right;
+       clear: left;
+       font-weight: bold;
+       width: 60px;
+       background-color: OrangeRed;
+       margin: -35px -15px 0px 0px;
+       padding: 2px;
+       text-align: center;
+       color: white ;
+}
+
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px)
+ {
+     .col-lg-3 
+     {
+     
+     height: 270px;
+     font-family: Comic Sans MS;
+     
+     
+     padding: 35px 15px 15px 15px;
+     margin: 25px 10px 15px 40px;
+     float:left;
+     background-color: Orange;
+     }
+ 
+   .col-lg-3
+    {
+     width: 25%;
+    }
+   
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+   .col-md-6,.col-md-12
+    {
+     
+     height: 250px;
+     font-family: Comic Sans MS;
+     
+    
+     padding: 35px 15px 15px 15px;
+     margin: 25px 10px 15px 30px;
+     float:left;
+     background-color: Orange;
+   }
+
+     .col-md-6 
+     {
+       width: 41%;
+     }
+    .col-md-12
+     {
+      width: 86.5%;
+     }
+}
+
+@media (max-width: 767px)
+ {
+  .col-sm-12
+   {
+     
+     height: 270px;
+     font-family: Comic Sans MS;
+     
+     
+     padding: 35px 15px 15px 15px;
+     margin: 25px 10px 15px 40px;
+     float:left;
+     background-color: Orange;
+  }
+    .col-sm-12
+     {
+    width: 90%;
+     }
+ }
