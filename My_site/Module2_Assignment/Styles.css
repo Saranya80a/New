@@ -3,7 +3,8 @@
 }
 
 body{
-	background-color: LawnGreen;
+	
+background-image: url("bg_image.jpeg");
 }
 
 #top{
