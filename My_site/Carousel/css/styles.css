@@ -1,22 +1,22 @@
 #header-nav
 {
-	background-color: white;
-
-  border:0px;
-	/*border-radius: 0;*/
+	background-color: #8fbbbc;
+	border-bottom: 20;
+	border-color: #cfe2e2;
+	border-radius: 0;
 	height: 150px;
 }
 
 body
 {
-	background-color: white;
+	background-color: #70a7a9;
 
 }
 
 #logo_img
 {
 	width:100px;
-	height: 110px;
+	height: 100px;
 	margin: 30px 0px 5px -40px;
 }
 
@@ -24,12 +24,12 @@ body
 {
 	font-family: 'Kaushan Script', cursive;
 	font-weight: bold;
-	color: #5f91ec;
+	color: #53868B;
 	font-size: 40px;
 	margin-left: 30px;
 	text-shadow: 1px 1px 1px #222;
 	line-height: .75;
-	margin-top: 45px;
+	margin-top: 35px;
 }
 
 .navbar-brand 
@@ -46,36 +46,32 @@ height: 100px;
 .navbar-brand #quote
 {
 	padding-left: 30px;
-	margin-top: 22px;
-	color: red;
+	margin-top: 12px;
+	color: #eff5f5;
 	font-size: 16px;
-	
-	text-shadow: 1px 1px 1px #555;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
 	width: 600px;
 }
 
-#nav-list{
+#nav-list {
   margin-top: 8px;
   margin-right: -80px;
-  background-color: white;
 }
-
 #nav-list a {
-  color: #5f91ec;
+  color: #eff5f5;
   text-align: center;
-  text-shadow: 1px 1px 1px black;
-  background-color: white;
+  text-shadow: 1px 1px 1px #222;
 }
-#nav-list a:hover{
-   background-color: lightGrey;
+#nav-list a:hover {
+  background: #E7E7E7;
 }
-
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 2px solid #5f91ec;
+  border: 1px solid #eff5f5;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -90,11 +86,6 @@ height: 100px;
 .navbar-default .navbar-collapse, .navbar-default .navbar-form 
 {
   border-color: #8fbbbc;
-}
-
-hr
-{
-  border-top: 5px solid #eee;
 }
 
 /* END HEADER */
@@ -118,31 +109,11 @@ hr
 
 }
 
-.carousel-indicators {
-    margin-bottom: -20px;
-    background-color: grey;
-    width: 80px;
-    height: 15px;
-    margin-left: -20px;
+.carousel-indicators
+{
+  margin-bottom: -40px;
 }
 
-#myCarousel
-  {
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #5f91ec;
-    width: 1000px;
-  }
-
-  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -45px;
-}
-
-
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -45px;
-}
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) 
@@ -159,12 +130,6 @@ hr
   {
   	margin-left: 0px;
   	padding-left: 50px;
-  }
-
-  #myCarousel
-  {
-    
-    width: 750px;
   }
    
 
@@ -202,19 +167,19 @@ hr
 
   #logo_img
   {
-     width: 80px;
-     height: 90px;
+     width: 60px;
+     height: 80px;
      margin-top: 40px;
   }
   .navbar-brand h1
    { /* Restaurant name */
     padding-top: 10px;
-    font-size: 2.5vw; /* 1vw = 1% of viewport width */
+    font-size: 3vw; /* 1vw = 1% of viewport width */
   }
 
   .navbar-brand #quote  
   { /* Quote */
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-top: 12px;
   }
 
@@ -223,68 +188,36 @@ hr
   	margin-left: 0px;
   	padding-left: 0px;
   }
-
-    #myCarousel
-   {
-     width: 580px;
-   }
-} 
+}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) 
 {
   /* Header */
-  #myCarousel
-  {
-    margin-top: 55px;
-    width: auto;
-    
-
-  }
-
-
   .navbar-brand 
   {
     padding-top: 10px;
     height: 80px;
-
   }
   .navbar-brand h1
    { /* Restaurant name */
-     margin-top: 0px;
-    margin-left: 0px;
+    padding-top: 8px;
     font-size: 6vw; /* 1vw = 1% of viewport width */
   }
 
-  #header-nav
-  {
-    height:100px;
-  }
-
-   
     #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-    background-color: white;
-
-
   }
-
- .navbar-collapse.in{
-  overflow-x: hidden;
-  overflow-y: hidden;
- }
 
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 20px;
-    margin-left: 5px;
   }
 
   .navbar-brand #quote  
   { /* Quote */
     font-size: 2.5vw;
-    margin-top: 10px;
-    padding-left: 0px;
+    margin-top: 16px;
   }
 
   .container .jumbotron
@@ -293,17 +226,11 @@ hr
   	padding-left: 0px;
   }
 
-  .carousel {
-    position:absolute;
-    top:90px;    
-}
-.navbar {
-    position:absolute;
-    
-    z-index:10;
-    background:#fff;
-    width:100%;
-}
+  #myCarousel
+  {
+    margin-top: 70px;
+
+  }
 
   
 }
